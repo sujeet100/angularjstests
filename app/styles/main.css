@@ -8,6 +8,13 @@
 body {
   padding: 0;
 }
+h1.v2{
+  color: #973322;
+}
+
+.v2{
+  color: #973322;
+}
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,

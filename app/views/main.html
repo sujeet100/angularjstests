@@ -1,16 +1,21 @@
 <div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+	<h1>'Allo, 'Allo!</h1>
+	<p class="lead">
+		<img src="images/yeoman.png" alt="I'm Yeoman">
+		<br></p>
+	<p>
+		<a class="btn btn-lg btn-success" ng-href="#/">
+			Splendid!
+			<span class="glyphicon glyphicon-ok"></span>
+		</a>
+	</p>
 </div>
 
 <div class="row marketing">
-  <div ng-repeat="subjectScore in score">
-    {{subjectScore.subject}}
-    {{subjectScore.marks}}
+	<div ng-repeat="subjectScore in score">
+		{{subjectScore.subject}} : {{subjectScore.marks}}
+	</div>
+	<h2>Total: {{total}}</h2>
+	<h3>Average: {{average}}</h3>
+	<h3>Grade: {{grade}}</h3>
 </div>
-<h2>Total: {{total}}</h2>
-<h3>Average: {{average}}</h3>
-<h3>Grade: {{grade}}</h3>
