@@ -1,12 +1,5 @@
 'use strict';
 
-/**
- * @ngdoc function
- * @name maverickApp.controller:MainCtrl
- * @description
- * # MainCtrl
- * Controller of the maverickApp
- */
 angular.module('maverickApp')
   .controller('MainCtrl', ['$scope','ScoreService', function ($scope, ScoreService) {
     $scope.score = ScoreService.getScore();
